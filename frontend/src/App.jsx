@@ -30,7 +30,7 @@ function App() {
               <Route path='profile' element={<Profile/>}/>
               
           </Route>
-          <Route path="/landingpage" element={<LandingPage/>}/>
+          <Route path="/" element={<LandingPage/>}/>
         </Routes>
     </BrowserRouter>
   )
