@@ -38,7 +38,7 @@ function Dashboard(){
             localStorage.removeItem("email");
 
             // redirect to landing page
-            navigate("/landingpage");
+            navigate("/");
         }
 
     return(
