@@ -30,7 +30,6 @@ function Dashboard(){
     function deposit(){
         navigate("/dashboard/deposit");
     }
-
             function handleLogout() {
             // clear auth data
             localStorage.removeItem("token");
