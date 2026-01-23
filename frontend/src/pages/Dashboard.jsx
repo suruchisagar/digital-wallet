@@ -6,11 +6,6 @@ import { Link, Outlet, useNavigate } from 'react-router-dom';
 import bgimage from "../assets/bgimage.jpg";
 
 
-
-
-
-
-
 function Dashboard(){
 
     const navigate= useNavigate();
