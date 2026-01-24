@@ -7,7 +7,6 @@ import bgimage from "../assets/bgimage.jpg";
 
 
 function Dashboard(){
-
     const navigate= useNavigate();
 
     function withdraw(){
@@ -63,7 +62,6 @@ function Dashboard(){
            <div className=" p-8 w-full max-w-md">
                 <button className="w-full px-4 py-3 bg-slate-600 text-white font-semibold rounded-lg hover:bg-slate-700 transition" onClick={handleLogout}>Logout</button>
            </div>
-           
 
           </div>
 
