@@ -6,12 +6,10 @@ import bgimage from "../assets/bgimage.jpg";
 import dashboard from "./Dashboard"
 
 
-
 function Signin(){
 
     const [email, setEmail]= useState("");
     const [password, setPassword]= useState("");
-
 
     //normal way to create function
     function handleEmail(e){
